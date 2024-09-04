@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Campito FC PW</title>
+		<meta name="author" content="name">
+    <meta name="description" content="description here">
+		<meta name="keywords" content="keywords,here">
+		    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/> <!--Replace with your tailwind.css once created-->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+	<style>
+	.smooth {transition: box-shadow 0.3s ease-in-out;}
+	::selection{background-color: aliceblue}
+	:root{::-webkit-scrollbar{height:10px;width:10px;}::-webkit-scrollbar-track{background:#efefef;border-radius:6px}
+	::-webkit-scrollbar-thumb{background:#d5d5d5;border-radius:6px} ::-webkit-scrollbar-thumb:hover{background:#c4c4c4}}
+	/*scroll to top*/
+	 .scroll-top {position: fixed;z-index: 50;padding: 0;right: 30px;bottom: 100px;opacity: 0;visibility: hidden;transform: translateY(15px);height: 46px;width: 46px;cursor: pointer;display: flex;align-items: center;justify-content: center;border-radius: 50%;transition: all .4s ease;border: none;box-shadow: inset 0 0 0 2px #ccc;color: #ccc;background-color: #fff;}.scroll-top.is-active {opacity: 1;visibility: visible;transform: translateY(0);}.scroll-top .icon-tabler-arrow-up {position: absolute;stroke-width: 2px;stroke: #333;}.scroll-top svg path {fill: none;}.scroll-top svg.progress-circle path {stroke: #333;stroke-width: 4;transition: all .4s ease;}.scroll-top:hover {color: var(--ghost-accent-color);}.scroll-top:hover .progress-circle path, .scroll-top:hover .icon-tabler-arrow-up {stroke: var(--ghost-accent-color);}
+	</style>
+</head>
+<body class="bg-white font-sans leading-normal tracking-normal">
+
+	<!--Nav-->
+	<nav class="bg-green-600 p-4 mt-0 w-full">
+        <div class="container mx-auto flex items-center">
+		    <div class="flex text-white font-extrabold">
+				<a class="flex text-white text-base no-underline hover:text-white hover:no-underline" href="#"> 
+					⚽ <span class="hidden w-0 md:w-auto md:block pl-1">Campito CF</span>
+				</a>
+            </div>
+			<div class="flex pl-4 text-sm">
+				<ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
+				  <li class="mr-2">
+					<a class="inline-block py-2 px-2 text-white no-underline" href="index.html">HOME</a>
+				  </li>
+				  <li class="mr-2">
+					<a class="inline-block text-indigo-200 no-underline hover:text-gray-100 hover:text-underline py-2 px-2" href="#suscribirse">CONTANCTANOS</a>
+				  </li>
+				</ul>
+			</div>
+        </div>
+	</nav>
+	
+	<!--slide in nav-->
+	<div id="header" class="bg-white fixed w-full z-10 top-0 hidden animated" style="opacity: .95;">
+		<div class="bg-white">
+			<div class="flex flex-wrap items-center content-center">
+				<div class="flex w-1/2 justify-start text-white font-extrabold">
+					<a class="flex text-gray-900 no-underline hover:text-gray-900 hover:no-underline pl-2" href="#">
+						⚽ <span class="hidden w-0 md:w-auto md:block pl-1">Campito CF</span>
+					</a>
+				</div>
+			</div>
+			
+		</div>
+		<!--Progress bar-->
+		<div id="progress" class="h-1 bg-white shadow" style="background:linear-gradient(to right, #328557 var(--scroll), transparent 0);"></div>
+    </div>
+	
+	
+	<!--Title-->
+	<div class="text-center pt-16 md:pt-32">
+		<p class="text-sm md:text-base text-green-500 font-bold"></span> ACERCA DE NOSOTROS</p>
+		<h1 class="font-bold break-normal text-3xl md:text-5xl">Bienvenidos a Campito FC</h1>
+	</div>
+
+	<!--image-->
+	<div class="container w-full max-w-6xl mx-auto bg-white bg-cover mt-8 rounded" style="background-image:url('https://source.unsplash.com/collection/1118905/'); height: 75vh;"></div>
+	
+	<!--Container-->
+	<div class="container max-w-5xl mx-auto -mt-32">
+		
+		<div class="mx-0 sm:mx-6">
+			
+			<div class="bg-white w-full p-8 md:p-24 text-xl md:text-2xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
+				
+				<!--Post Content-->
+				
+
+				<!--Lead Para-->
+				<p class="text-2xl md:text-3xl mb-5">
+					👋 Bienvenidos aficionados a <a class="text-gray-800 hover:text-green-500 no-underline border-b-2 border-green-500" href="https://www.tailwindcss.com">Campito FC</a> 
+					! Somos más que una escuela, somos una familia apasionada por el fútbol y comprometida con el desarrollo integral de nuestros jugadores.
+				</p>
+
+				<p class="py-6">
+					Nuestro objetivo es formar a la próxima generación de futbolistas en un ambiente positivo y motivador. ¡Unete a nostros y vive la pasíon por el 
+					fútbol en cada entrenamiento!.
+				</p>
+
+				<p class="py-6">
+					Aquí, combinamos la enseñanza de técnicas deportivas con valores como el trabajo en equipo, la disciplina y el respeto.
+					Además, fomentamos la creatividad en el juego y la resiliencia ante los deafios, preparando a nuestros jugadores para triunfar
+					tanto dentro como fuera del campo. Cada entrenamiento es una oportunidad para crecer, divertirse y hacer amigos para toda la vida.
+				</p>				
+
+				<blockquote class="border-l-4 border-green-500 italic my-8 pl-8 md:pl-12">
+					Inclusivos - Nuestras puertas estan abiertas a jugadores de todas las edades y géneros, brindando un espacio donde cada personales
+					es bienvenida y valorada. Nuestro enfoque inclusivo garantiza que todos, desde los más pequeños hasta los adultos, puedan disfrutar y 
+					creces en el deporte que aman.
+
+				<pre class="bg-gray-800 rounded text-white font-mono text-base p-3">
+					<p class="break-words whitespace-pre-wrap">Aqui, todos tienen la oportunidad de brillar.</p>
+				</pre>
+				</blockquote>
+												
+				<!--/ Post Content-->
+						
+			</div>
+			
+			<!--Subscribe-->	
+			<div id="suscribirse" class="container font-sans bg-green-300 rounded mt-8 p-4 md:p-24 text-center">
+				<h2 class="font-bold break-normal text-2xl md:text-4xl">Suscribirse a Campito CF</h2>
+				<h3 class="font-bold break-normal font-normal text-gray-600 text-base md:text-xl">Reciba información en su banjeda</h3>
+				<div class="w-full text-center pt-4">
+					<form action="#">
+						<div class="max-w-xl mx-auto p-1 pr-0 flex flex-wrap items-center">
+							<input type="email" placeholder="youremail@example.com" class="flex-1 appearance-none rounded shadow p-3 text-gray-600 mr-2 focus:outline-none">
+							<button type="submit" class="flex-1 mt-4 md:mt-0 block md:inline-block appearance-none bg-green-100 text-gray-500 text-base font-semibold tracking-wider uppercase py-4 rounded shadow hover:bg-green-400">Suscribirse</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<!-- /Subscribe-->
+			
+	
+			<!--Author-->
+			<div class="flex w-full items-center font-sans p-8 md:p-24">
+				<img class="w-10 h-10 rounded-full mr-4" src="img/fc.jpg" alt="Avatar of Author">
+				<div class="flex-1">
+					<p class="text-base font-bold text-base md:text-xl leading-none">Campito FC</p>
+					<p class="text-gray-600 text-xs md:text-base">Escuela de fútbol para todos </p>
+				</div>
+				<div class="justify-end">
+					<a href="fcinicio.html" class="bg-transparent border border-gray-500 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-2 px-4 rounded-full">Read More</a>
+				</div>
+			</div>
+			<!--/Author-->
+			
+		</div>
+	
+
+	</div>
+
+		</div>
+
+
+<!--   Scroll Top Button  -->
+    <button class="btn-toggle-round scroll-top js-scroll-top" type="button" title="Scroll to top">
+      <svg class="progress-circle" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="cuurentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <line x1="12" y1="5" x2="12" y2="19" />
+        <line x1="18" y1="11" x2="12" y2="5" />
+        <line x1="6" y1="11" x2="12" y2="5" />
+      </svg>
+    </button>
+
+	<footer class="bg-green-600">	
+		<div class="container max-w-6xl mx-auto flex items-center px-2 py-8">
+	
+			<div class="w-full mx-auto flex flex-wrap items-center">
+				<div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
+					<a class="text-gray-900 no-underline hover:text-gray-900 hover:no-underline" href="#">
+						⚽ <span class="text-base text-gray-200">CAMPITO FC</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+<script>
+	/* Progress bar */
+	//Source: https://alligator.io/js/progress-bar-javascript-css-variables/
+	var h = document.documentElement,
+		  b = document.body,
+		  st = 'scrollTop',
+		  sh = 'scrollHeight',
+		  progress = document.querySelector('#progress'),
+		  scroll;
+	var scrollpos = window.scrollY;
+	var header = document.getElementById("header");
+
+	document.addEventListener('scroll', function() {
+
+		/*Refresh scroll % width*/
+		scroll = (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
+		progress.style.setProperty('--scroll', scroll + '%');
+
+		/*Apply classes for slide in bar*/
+		scrollpos = window.scrollY;
+
+    if(scrollpos > 100){
+      header.classList.remove("hidden");
+	  header.classList.remove("fadeOutUp");
+	  header.classList.add("slideInDown");
+    }
+    else {
+	  header.classList.remove("slideInDown");
+      header.classList.add("fadeOutUp");
+	  header.classList.add("hidden");
+    }
+
+	});
+
+// scroll to top	
+const t=document.querySelector(".js-scroll-top");if(t){t.onclick=()=>{window.scrollTo({top:0,behavior:"smooth"})};const e=document.querySelector(".scroll-top path"),o=e.getTotalLength();e.style.transition=e.style.WebkitTransition="none",e.style.strokeDasharray=`${o} ${o}`,e.style.strokeDashoffset=o,e.getBoundingClientRect(),e.style.transition=e.style.WebkitTransition="stroke-dashoffset 10ms linear";const n=function(){const t=window.scrollY||window.scrollTopBtn||document.documentElement.scrollTopBtn,n=Math.max(document.body.scrollHeight,document.documentElement.scrollHeight,document.body.offsetHeight,document.documentElement.offsetHeight,document.body.clientHeight,document.documentElement.clientHeight),s=Math.max(document.documentElement.clientHeight,window.innerHeight||0);var l=o-t*o/(n-s);e.style.strokeDashoffset=l};n();const s=100;window.addEventListener("scroll",(function(e){n();(window.scrollY||window.scrollTopBtn||document.getElementsByTagName("html")[0].scrollTopBtn)>s?t.classList.add("is-active"):t.classList.remove("is-active")}),!1)}	
+
+</script>
+
+</body>
+</html>
